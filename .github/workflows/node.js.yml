@@ -9,7 +9,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'fullstack-typescript-mern-todo/server/**'
+      - 'server/*'
    
   pull_request:
     branches: [main]
