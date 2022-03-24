@@ -38,7 +38,7 @@ jobs:
       # install applicaion dependencies
       - name: Install dependencies
         run: |
-          npm install
+          yarn install
       # build and test the apps
       - name: build
         run: |
